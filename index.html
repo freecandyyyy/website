@@ -2,7 +2,10 @@
   layout: default
 ---
 
-<div class="post">
-  <h2>Sample</h2>
-  <p>test</p>
-</div>
+{% for post in site.categories.blog %}
+  <div class="post">
+    <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+    <p>{{ post.excerpt }}</p>
+    <p><a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a></p>
+  </div>
+{% endfor %}
