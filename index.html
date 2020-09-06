@@ -5,7 +5,7 @@
 {% for post in site.posts %}
   <div class="post">
     <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
-    <p>{{ post.excerpt }}</p>
-    <p><a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a></p>
+    {{ post.excerpt }}
+    <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
   </div>
 {% endfor %}
