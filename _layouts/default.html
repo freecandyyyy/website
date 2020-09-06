@@ -1,22 +1,28 @@
-<!DOCTYPE html>
 <html>
-  <head>
+<head>
     <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }} – {{ site.description }}</title>
-    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
-  </head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://kit.fontawesome.com/0f2b82719d.js" crossorigin="anonymous"></script>
+</head>
   <body>
     <div class="content">
-    <div class="container">
-      <a href="{{ site.baseurl }}/">
-        <img class="site-avatar" src="{{ site.avatar }}" />
-      </a>
-      <h1 class="site-name">{{ site.name }}</h1>
-      <p class="site-description">{{ site.description }}</p>
-      {{ content }}
+        <div class="header">
+            <a href="{{ site.baseurl }}/" class="site-avatar" ><img class="site-avatar" src="{{ site.avatar }}" /></a>
+            <h1 class="site-name"><a href="{{ site.baseurl }}/">Free Candy</a></h1>
+            <p class="site-description">We make music.</p>
+        </div>
     </div>
+      
+    {{ content }}
+      
+    <div class="footer">
+        <div class="footer-content">
+            <a href="https://soundcloud.com/free-candyyyy"><i class="fab fa-soundcloud"></i></a>
+            <a href="https://www.instagram.com/free.candyyyy/"><i class="fab fa-instagram"></i></a>
+            <a href="mailto:freecandyyyy@gmail.com"><i class="far fa-envelope"></i></a>
+        </div>
     </div>
-    <div class="wrapper-footer">
-      <p>test</p>
-    </div>
-  </body>
+  
+
+</body>
 </html>
