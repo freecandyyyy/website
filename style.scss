@@ -1,0 +1,31 @@
+---
+---
+
+//
+// IMPORTS
+//
+
+@import "reset";
+@import "variables";
+// Syntax highlighting @import is at the bottom of this file
+
+/**************/
+/* BASE RULES */
+/**************/
+
+html {
+  font-size: 100%;
+}
+
+body {
+	background: $black;
+  font: 18px/1.4 $helvetica;
+  color: $white;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 800px;
+  padding: 0 10px;
+  width: 100%;
+}
