@@ -3,16 +3,18 @@ html {
 }
 
 body {
-	background: black;
+	    background: url(art/bugman.png);
+    background-size:cover;
   font: 18px/1.4 helvetica;
   color: white;
+    margin:0;
 }
 
-.container {
-  margin: 0 auto;
-  max-width: 800px;
-  padding: 0 10px;
-  width: 100%;
+.header{
+    box-sizing: border-box;
+    border-bottom: 2px solid #ddd;
+    background: black;
+    padding: 18px;
 }
 
 .site-avatar {
@@ -21,41 +23,66 @@ body {
   margin: 0 auto;
 }
 
-.site-name {
+.site-name{
   text-decoration: underline;
   text-align: center;
   margin: 0;
 }
 
+.site-name a{
+    color: white;
+}
+
 .site-description {
   text-align: center;
-  margin: 0 0 18 0;
+  margin: 0 ;
 }
 
 .content {
-  min-height: calc(100vh - 150px);	
+  min-height: calc(100vh - 200px);
+    
 }
 
-.wrapper-footer {
-  height: 100px;
-  margin-top: 50px;
-  border-top: 1px solid #ddd;
-  background-color: $lightGray;
-  letter-spacing: 5px;
+.footer {
+    box-sizing: border-box;
+    border-top: 2px solid #ddd;
+	background-color:black;
+    margin-top:100px;
+    height:100px;
+    position: relative;
 }
 
-footer {
-  padding: 20px 0;
-  font-size: 40px;
-  text-align: center;
+.footer-content{
+    letter-spacing: 10px;
+    width:100%;
+    text-align: center;
+    margin:auto;
+	position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
 }
 
-.clearfix:before,
-.clearfix:after {
-    content: " ";
-    display: table;
+i, i a, i a:hover, i a:focus, i a:active {
+          font-size: 38px;
+      text-decoration: none;
+      color: white;
 }
 
-.clearfix:after {
-    clear: both;
+.post{
+  margin: 50 auto;
+  max-width: 800px;
+  padding: 18px;
+  width: 100%;
+    background: black;
+    box-sizing: border-box;
+    border: 2px solid #ddd;
+    word-break:break-all;
+}
+
+a {
+  color: hotpink;
+}
+
+img {
+    width: 100%;
 }
