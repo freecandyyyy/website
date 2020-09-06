@@ -29,10 +29,6 @@ body {
   margin: 0;
 }
 
-.site-name a{
-    color: white;
-}
-
 .site-description {
   text-align: center;
   margin: 0 ;
@@ -81,6 +77,10 @@ i, i a, i a:hover, i a:focus, i a:active {
 
 a {
   color: hotpink;
+}
+
+h1 a {
+  color: white;
 }
 
 img {
