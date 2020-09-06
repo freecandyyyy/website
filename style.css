@@ -81,8 +81,14 @@ a {
 
 h1 a {
   color: white;
+  text-decoration: inherit;
 }
 
 img {
     width: 100%;
+}
+
+.date {
+	color: gray;
+	font-style: italic;
 }
