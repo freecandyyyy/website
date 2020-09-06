@@ -92,3 +92,7 @@ img {
 	color: gray;
 	font-style: italic;
 }
+
+.post-title: hover {
+	color: hotpink;
+}
