@@ -3,7 +3,7 @@ html {
 }
 
 body {
-	    background: url(art/bugman.png);
+	    background: url(/art/bugman.png);
     background-size:cover;
   font: 18px/1.4 helvetica;
   color: white;
