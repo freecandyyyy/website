@@ -95,4 +95,5 @@ img {
 
 .post-title: hover {
 	color: hotpink;
+	transition: color 0.5s;
 }
