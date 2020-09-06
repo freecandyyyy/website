@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }} – {{ site.description }}</title>
+  </head>
+  <body>
+    <a href="{{ site.baseurl }}/"><img src="{{ site.avatar }}" /></a>
+    {{ content }}
+  </body>
+</html>
