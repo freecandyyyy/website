@@ -3,9 +3,9 @@ html {
 }
 
 body {
-	background: $black;
-  font: 18px/1.4 $helvetica;
-  color: $white;
+	background: black;
+  font: 18px/1.4 helvetica;
+  color: white;
 }
 
 .container {
