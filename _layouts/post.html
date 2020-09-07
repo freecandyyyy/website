@@ -4,8 +4,10 @@
 
 <div class="post">
   <h1 class="post-title">{{ page.title }}</h1>
-  {% if page.image %}
-  <img src="{{ page.image }}">
+  {% if post.image %}
+    <img src="{{ post.image }}">
+  {% elsif post.audio %}
+    <audio controls src="{{ post.audio }}">
   {% endif %}
   {{ content }}
   <div class="date">Published on {{ page.date | date: "%B %e, %Y" }}</div>
