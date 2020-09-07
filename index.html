@@ -4,6 +4,7 @@
 
 {% for post in site.posts %}
   <div class="post">
+    <div class="post-content">
     <h1 class="post-title"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
   {% if post.image %}
     <a href="{{ post.image }}" class="lightbox-image">
@@ -14,5 +15,6 @@
   {% endif %}
     {{ post.excerpt }}
     <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
+    </div>
   </div>
 {% endfor %}
