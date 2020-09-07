@@ -110,8 +110,8 @@ audio {
 }
 
 .post-content{
-    margin: 0px 18px;
     background: black;
     box-sizing: border-box;
     border: 2px solid #ddd;
+    width: calc(100% - 36px);
 }
