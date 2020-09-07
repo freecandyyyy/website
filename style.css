@@ -113,5 +113,6 @@ audio {
     box-sizing: border-box;
     border: 2px solid #ddd;
     width: calc(100% - 36px);
+    margin: auto;
     padding: 18px;
 }
