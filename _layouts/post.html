@@ -5,7 +5,9 @@
 <div class="post">
   <h1 class="post-title">{{ page.title }}</h1>
   {% if page.image %}
-    <img src="{{ page.image }}" class="lightbox-image">
+    <a href="{{ page.image }}" class="lightbox-image">
+      <img src="{{ page.image }}">
+    </a>
   {% elsif page.audio %}
     <audio controls src="{{ page.audio }}"></audio>
   {% endif %}
