@@ -8,7 +8,7 @@
   {% if post.image %}
     <img src="{{ post.image }}">
   {% elsif post.audio %}
-    <audio controls src="{{ post.audio }}">
+    <audio controls src="{{ post.audio }}"></audio>
   {% endif %}
     {{ post.excerpt }}
     <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
