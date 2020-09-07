@@ -87,11 +87,16 @@ h1 a {
 
 img {
     width: 100%;
+  margin: 18px 0px;
 }
 
 .date {
 	color: gray;
 	font-style: italic;
+}
+
+.post-title {
+  margin: 0px;
 }
 
 .post-title a:hover {
