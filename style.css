@@ -71,7 +71,6 @@ i a:active {
 .post {
     margin: 50 auto;
     max-width: 836px;
-    padding: 18px;
     width: 100%;
     word-break: break-all;
 }
@@ -114,4 +113,5 @@ audio {
     box-sizing: border-box;
     border: 2px solid #ddd;
     width: calc(100% - 36px);
+    padding: 18px;
 }
