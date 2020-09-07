@@ -90,6 +90,11 @@ img {
   margin: 18px 0px;
 }
 
+audio {
+ margin: 18px 0px;
+ display: block;
+}
+
 .date {
 	color: gray;
 	font-style: italic;
