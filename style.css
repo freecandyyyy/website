@@ -70,7 +70,7 @@ i a:active {
 
 .post {
     margin: 50 auto;
-    max-width: 800px;
+    max-width: 836px;
     padding: 18px;
     width: 100%;
     background: black;
@@ -110,4 +110,8 @@ audio {
 
 .post-title a:hover {
     color: hotpink;
+}
+
+.post-content{
+    margin: 0px 18px;
 }
