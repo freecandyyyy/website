@@ -1,17 +1,17 @@
 html {
-  font-size: 100%;
+    font-size: 100%;
 }
 
 body {
-	    background: url(/art/bugman.png);
-    background-size:cover;
-	background-attachment: fixed;
-  font: 18px/1.4 helvetica;
-  color: white;
-    margin:0;
+    background: url(/art/bugman.png);
+    background-size: cover;
+    background-attachment: fixed;
+    font: 18px/1.4 helvetica;
+    color: white;
+    margin: 0;
 }
 
-.header{
+.header {
     box-sizing: border-box;
     border-bottom: 2px solid #ddd;
     background: black;
@@ -19,91 +19,95 @@ body {
 }
 
 .site-avatar {
-  width: 128px;
-  display: block;
-  margin: 0 auto;
+    width: 128px;
+    display: block;
+    margin: 0 auto;
 }
 
-.site-name{
-  text-decoration: underline;
-  text-align: center;
-  margin: 0;
+.site-name {
+    text-decoration: underline;
+    text-align: center;
+    margin: 0;
 }
 
 .site-description {
-  text-align: center;
-  margin: 0 ;
+    text-align: center;
+    margin: 0;
 }
 
 .content {
-  min-height: calc(100vh - 200px);
-    
+    min-height: calc(100vh - 200px);
 }
 
 .footer {
     box-sizing: border-box;
     border-top: 2px solid #ddd;
-	background-color:black;
-    margin-top:100px;
-    height:100px;
+    background-color: black;
+    margin-top: 100px;
+    height: 100px;
     position: relative;
 }
 
-.footer-content{
+.footer-content {
     letter-spacing: 10px;
-    width:100%;
+    width: 100%;
     text-align: center;
-    margin:auto;
-	position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
+    margin: auto;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
 }
 
-i, i a, i a:hover, i a:focus, i a:active {
-          font-size: 38px;
-      text-decoration: none;
-      color: white;
+i,
+i a,
+i a:hover,
+i a:focus,
+i a:active {
+    font-size: 38px;
+    text-decoration: none;
+    color: white;
 }
 
-.post{
-  margin: 50 auto;
-  max-width: 800px;
-  padding: 18px;
-  width: 100%;
+.post {
+    margin: 50 auto;
+    max-width: 800px;
+    padding: 18px;
+    width: 100%;
     background: black;
     box-sizing: border-box;
     border: 2px solid #ddd;
-    word-break:break-all;
+    word-break: break-all;
 }
 
 a {
-  color: hotpink;
+    color: hotpink;
 }
 
 h1 a {
-  color: white;
-  text-decoration: inherit;
+    color: white;
+    text-decoration: inherit;
 }
 
 img {
     width: 100%;
-  margin: 18px 0px;
+    margin: 18px 0px;
 }
 
 audio {
- margin: 18px 0px;
- display: block;
+    margin: 18px 0px;
+    display: block;
+    width: 100%;
 }
 
 .date {
-	color: gray;
-	font-style: italic;
+    color: gray;
+    font-style: italic;
 }
 
 .post-title {
-  margin: 0px;
+    margin: 0px;
 }
 
 .post-title a:hover {
-	color: hotpink;
+    color: hotpink;
 }
