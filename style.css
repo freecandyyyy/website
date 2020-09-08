@@ -114,4 +114,5 @@ audio {
     width: calc(100% - 20px);
     margin: auto;
     padding: 18px;
+    overflow: hidden;
 }
