@@ -70,7 +70,7 @@ i a:active {
 
 .post {
     margin: 50 auto;
-    max-width: 820px;
+    max-width: 812px;
     width: 100%;
 }
 
@@ -111,7 +111,7 @@ audio {
     background: black;
     box-sizing: border-box;
     border: 2px solid #ddd;
-    width: calc(100% - 20px);
+    width: calc(100% - 12px);
     margin: auto;
     padding: 18px;
     overflow: hidden;
