@@ -115,6 +115,6 @@ audio {
     width: calc(100% - 12px);
     margin: auto;
     padding: 18px;
-    word-break: break-all;
+    overflow-wrap: break-word;
     hyphens: auto;
 }
