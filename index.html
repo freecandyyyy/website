@@ -13,11 +13,9 @@
   {% elsif post.audio %}
     <audio controls src="{{ post.audio }}"></audio>
   {% endif %}
-  {% if post.content | size > 0 %}
     {{ post.excerpt }}
     <p>...</p>
     <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
-  {% endif %}
     </div>
   </div>
 {% endfor %}
