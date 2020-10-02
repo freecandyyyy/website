@@ -15,7 +15,17 @@ body {
     box-sizing: border-box;
     border-bottom: 2px solid #ddd;
     background: black;
-    padding: 18px;
+    height: 100px;
+    position: relative;
+}
+
+.header-content {
+    width: 100%;
+    text-align: center;
+    margin: auto;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);   
 }
 
 .site-avatar {
